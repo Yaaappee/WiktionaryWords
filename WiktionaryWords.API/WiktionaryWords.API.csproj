@@ -16,4 +16,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WiktionaryWords.DataAccess\WiktionaryWords.DataAccess.csproj" />
+    <ProjectReference Include="..\WiktionaryWords.WiktionaryEndpoint\WiktionaryWords.WiktionaryEndpoint.csproj" />
+  </ItemGroup>
+
 </Project>

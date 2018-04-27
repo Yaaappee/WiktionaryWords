@@ -2,7 +2,7 @@ using Xunit;
 
 namespace WiktionaryWords.WiktionaryEndpoint.Tests
 {
-    public class ExampleTest
+    public class EndpointTests
     {
         [Fact]
         public async void TestInternetConnection()
